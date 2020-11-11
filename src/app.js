@@ -46,7 +46,3 @@ console.log("Porta", process.env.PORT);
 http.listen(process.env.PORT || 3000, () => {
 	console.log("Servidor no ar");
 });
-
-app.get("/", (req, res) => {
-	res.send("<h1>Alexandre</h1>");
-});
